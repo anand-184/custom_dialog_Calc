@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">custom_dialog_app</string>
+    <string name="name">Entered Number is </string>
+    <string name="calculate">CALCULATE</string>
+</resources>
