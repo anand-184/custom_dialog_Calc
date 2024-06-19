@@ -2,6 +2,7 @@ package com.anand.custom_dialog_app
 
 import android.app.Dialog
 import android.os.Bundle
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity() {
                 var num1 = etnumber?.text.toString().toInt()
                 Dialog(this).apply {
                 setContentView(R.layout.layout_dialog)
+                    window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT)
 
                 show()
                     var dialognum = findViewById<EditText>(R.id.dialognum)
