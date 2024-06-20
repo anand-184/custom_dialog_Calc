@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                 var num1 = etnumber?.text.toString().toInt()
                 Dialog(this).apply {
                 setContentView(R.layout.layout_dialog)
-                    window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT)
+                    window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.MATCH_PARENT)
 
                 show()
                     var dialognum = findViewById<EditText>(R.id.dialognum)
